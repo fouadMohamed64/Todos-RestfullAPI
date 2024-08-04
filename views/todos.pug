@@ -1,0 +1,6 @@
+link(rel="stylesheet",href="/style.css")
+div
+  each todo in todos
+    h1= `Todo Title: ${todo.title}` 
+    h2= `Todo Status: ${todo.status}`
+    h3= `Todo CreatedAt: ${todo.createdAt}`

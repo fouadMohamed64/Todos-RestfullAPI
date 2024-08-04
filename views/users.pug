@@ -1,0 +1,7 @@
+link(rel="stylesheet",href="/style.css")
+div
+  each user in users
+    h1= `User Name: ${user.userName}` 
+    h2= `User Email: ${user.email}`
+    h2= `User Role: ${user.role}`
+    h3= `User CreatedAt: ${user.createdAt}`
